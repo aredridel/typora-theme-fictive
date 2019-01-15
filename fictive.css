@@ -1,3 +1,24 @@
+@font-face {
+	font-family: "Gentium Book Basic";
+	src: url("./fictive/GenBkBasR.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Gentium Book Basic";
+	font-style: italic;
+	src: url("./fictive/GenBkBasI.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Gentium Book Basic";
+	font-weight: 600;
+	src: url("./fictive/GenBkBasB.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Gentium Book Basic";
+	font-weight: 600;
+	font-style: italic;
+	src: url("./fictive/GenBkBasBI.ttf") format("truetype");
+}
+
 html {
 	font-size: 22px;
 }
