@@ -84,7 +84,7 @@ h1+h2, h2+h3 {
 	margin-top: 0.83em;
 }
 
-p, .mathjax-block {
+:not(li)>p, .mathjax-block {
 	margin-top: 0;
 	-webkit-hypens: auto;
 	-moz-hypens: auto;
@@ -92,12 +92,8 @@ p, .mathjax-block {
 	text-indent: 5ch;
 	margin-bottom: 0;
 }
-ul {
-	list-style: square;
-	padding-left: 1.2em;
-}
-ol {
-	padding-left: 1.2em;
+ul, ol {
+	padding-left: 2em;
 }
 blockquote {
 	margin-left: 5ch;
