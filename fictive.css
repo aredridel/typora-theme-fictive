@@ -19,20 +19,23 @@
 	src: url("./fictive/GenBkBasBI.ttf") format("truetype");
 }
 
-html {
+:root {
 	font-size: 22px;
+	--text-indent: 5ch;
 }
 
-html, body {
+:root, :root>* {
 	margin: auto;
 	background: #fefefe;
 }
-body {
+
+:root>* {
 	font-family: "Gentium Book Basic", Palatino, Times;
 	color: #333;
 	line-height: 1.6;
 	text-align: justify;
 }
+
 #write {
 	max-width: 960px;
 	margin: 0 auto;
@@ -89,14 +92,14 @@ h1+h2, h2+h3 {
 	-webkit-hypens: auto;
 	-moz-hypens: auto;
 	hyphens: auto;
-	text-indent: 5ch;
+	text-indent: var(--text-indent);;
 	margin-bottom: 0;
 }
 ul, ol {
-	padding-left: 2em;
+	padding-left: var(--text-indent);;
 }
 blockquote {
-	margin-left: 5ch;
+	margin-left: var(--text-indent);;
 	font-style: italic;
 }
 code, pre {
