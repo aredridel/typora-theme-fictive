@@ -307,3 +307,9 @@ table tbody+tbody {
 .dropdown-menu .divider {
 	border-color: #e5e5e5;
 }
+
+.md-comment {
+	color: #666;
+	font-family: inherit;
+	font-style: italic;
+}
